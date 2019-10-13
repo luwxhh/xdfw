@@ -11,6 +11,9 @@ body{
     display: grid;
     position: fixed;
 }
+.head{
+    height: 45px;
+}
 h1 {
     font-size: 1.3em;
     font-weight: normal;
@@ -22,21 +25,18 @@ h1 {
     width: 100%;
     height: auto;
     display: table;
-    padding-top: 45px;
 }
 .banner img{
     width: 100%;
 }
-.content {
-}
-.pure-u-1-3 {
+.nava {
     display: grid;
     text-align: center;
     margin-bottom: 6px;
     height: 80px;
     background-color: #FDFDFD;
 }
-.pure-u-1-3 img {
+.nava img {
     margin: auto;
     margin-top: 10px;
 }
@@ -85,4 +85,47 @@ h1 {
 }
 .pure-button{
     padding: .2em 0.2em;
+}
+.navb{
+    height: 45px;
+    display: grid;
+    text-align: center;
+}
+.khb{
+    padding-top: 10px;
+}
+.kh{
+    width: 88%;
+    height: 55px;
+    margin: 0 6%;
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 2px solid #cad2d3;
+    background-color: #FDFDFD;
+}
+.kh img{
+    float: left;
+    margin: 10px 10px;
+}
+.kh span{
+    float: left;
+    margin: 7px;
+}
+.content{
+    color: #000;
+    text-align: left;
+    text-indent: 2em;
+    margin-top: 20px;
+}
+.content h1{
+    font-weight: bold;
+    color: #E80003;
+}
+.content h2{
+    font-size: 1em;
+}
+.content p{
+    font-size: 0.8em;
 }
